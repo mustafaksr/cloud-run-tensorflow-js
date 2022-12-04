@@ -24,7 +24,7 @@ bash no_docker_app_deploy.sh
 ```
 
 3. Deploy the app's new revision and perform traffic test:
-Note: if the app deployed without docker, in the traffic_test.sh file(line 10) ,  you need to change  [--image "$TAG"] with [--source .] to run this file properly.
+<p>Note: if the app deployed without docker, in the traffic_test.sh file(line 10) ,  you need to change  [--image "$TAG"] with [--source .] to run this file properly.<p>
  
 ```
 cd ~/cloud-run-tensorflow-js
