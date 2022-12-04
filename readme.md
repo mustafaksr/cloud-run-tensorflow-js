@@ -1,4 +1,4 @@
-# cloud run  tensorflow js simple regression app
+# Cloud Run  Tensorflow js Simple Regression App
 This demo's purpose is deploying tensorflow js simple regression app to google cloud run from  [boilerplate version on glitch.me.](https://tensorflowjs-multiple-neuron-linear-regression-to-learn.glitch.me/)
 
 ## Files in repo:
