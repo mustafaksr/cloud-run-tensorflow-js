@@ -13,11 +13,13 @@ git clone https://github.com/mustafaksr/cloud-run-tensorflow-js.git
 ```
 2. Deploy app into cloud run:
 ```
+cd ~/cloud-run-tensorflow-js
 bash docker_app_deploy.sh
 ```
 or
 2. Deploy app into cloud run without docker image:
 ```
+cd ~/cloud-run-tensorflow-js
 bash no_docker_app_deploy.sh
 ```
 
@@ -25,6 +27,7 @@ bash no_docker_app_deploy.sh
 Note: if the app deployed without docker, in the traffic_test.sh file(line 10) ,  you need to change  [--image "$TAG"] with [--source .] to run this file properly.
  
 ```
+cd ~/cloud-run-tensorflow-js
 bash traffic_test.sh
 ```
 4. Check results...
