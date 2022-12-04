@@ -16,7 +16,8 @@ git clone https://github.com/mustafaksr/cloud-run-tensorflow-js.git
 cd ~/cloud-run-tensorflow-js
 bash docker_app_deploy.sh
 ```
-or
+<p>or</p>
+
 2. Deploy app into cloud run without docker image:
 ```
 cd ~/cloud-run-tensorflow-js
