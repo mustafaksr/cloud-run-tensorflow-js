@@ -9,7 +9,7 @@ This demo's purpose is deploying tensorflow js simple regression app to google c
 in cloud shell:
 1. clone repo: 
 ```
-git clone
+git clone https://github.com/mustafaksr/cloud-run-tensorflow-js.git
 ```
 2. Deploy app into cloud run:
 ```
