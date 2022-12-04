@@ -7,7 +7,7 @@ This demo's purpose is to deploy tensorflow js simple regression app to google c
 * traffic_test.sh : Automated traffic test bash file, it deploys new revision and split traffic between revision. And perform a traffic test.
 ## Steps:
 In cloud shell:
-1. clone repo: 
+1. Clone the repo: 
 ```
 git clone https://github.com/mustafaksr/cloud-run-tensorflow-js.git
 ```
