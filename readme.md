@@ -3,7 +3,7 @@ This demo's purpose is to deploy tensorflow js simple regression app to google c
 
 ## Files in repo:
 * docker_app_deploy.sh: Automated bash file, to deploy the app into cloud run with docker image 
-* no_docker_app_deploy.sh : Automated bash file, to deploy the app into cloud run without docker image
+* buildpacks_app_deploy.sh : Automated bash file, to deploy the app into cloud run without docker image
 * traffic_test.sh : Automated traffic test bash file, it deploys new revision and split traffic between revision. And perform a traffic test.
 ## Steps:
 In cloud shell:
@@ -21,7 +21,7 @@ bash docker_app_deploy.sh
 2. Deploy app into cloud run without docker image:
 ```
 cd ~/cloud-run-tensorflow-js
-bash no_docker_app_deploy.sh
+bash buildpacks_app_deploy.sh
 ```
 
 3. Deploy the app's new revision and perform traffic test:
