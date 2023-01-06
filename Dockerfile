@@ -9,10 +9,9 @@ COPY requirements.txt .
 # Install dependencies into this container so there's no need to 
 # install anything at container run time.
 RUN pip install -r requirements.txt
-
 # Service must listen to $PORT environment variable.
 # This default value facilitates local development.
-ENV PORT 8080
+ENV PORT 9088
 
 # Run the web service on container startup. Here you use the gunicorn
 # server, with one worker process and 8 threads. For environments 
