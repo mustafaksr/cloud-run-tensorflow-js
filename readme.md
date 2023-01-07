@@ -39,6 +39,6 @@ You can find html/css/js [files in here.](https://github.com/mustafaksr/Machine-
 Docker image:
 ```
 docker pull mustafakeser/cloudruntensorflowjs:latest
-export PORT=3001
+export PORT=3000
 docker run -p $PORT:$PORT -e PORT=$PORT mustafakeser/cloudruntensorflowjs:latest
 ```
