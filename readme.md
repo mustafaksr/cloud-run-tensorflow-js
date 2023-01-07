@@ -34,3 +34,11 @@ bash traffic_test.sh
 4. Check results...
 
 You can find html/css/js [files in here.](https://github.com/mustafaksr/Machine-Learning/tree/main/tensorflow.js/linear-regression) 
+
+
+Docker image:
+```
+docker pull mustafakeser/cloudruntensorflowjs:latest
+export PORT=3001
+docker run -p $PORT:$PORT -e PORT=$PORT mustafakeser/cloudruntensorflowjs:latest
+```

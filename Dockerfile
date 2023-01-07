@@ -6,6 +6,8 @@ WORKDIR /tensorjs_app
 COPY main.py .
 COPY requirements.txt .
 
+
+
 # Install dependencies into this container so there's no need to 
 # install anything at container run time.
 RUN pip install -r requirements.txt
