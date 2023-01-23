@@ -4,13 +4,18 @@ provider "google" {
 }
 
 resource "google_cloud_run_service" "example" {
-  name     = "example"
+  name     = "tf-js-regression"
   location = var.region
 
   template {
     spec {
       containers {
         image = "mustafakeser/cloudruntensorflowjs:latest"
+        startup_probe {
+            tcp_socket {
+                port = 3000
+            }
+        }
       }
     }
   }
